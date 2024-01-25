@@ -17,7 +17,7 @@ export default function Summary() {
             </thead>
             <tbody>
                 {summary.map((sum: any) => <tr key={sum.code}>
-                    <th>${sum.code}</th>
+                    <th>{sum.code}</th>
                     <td>${sum.starting}</td>
                     <td>${sum.lowest}</td>
                     <td>${sum.highest}</td>
